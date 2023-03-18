@@ -2,7 +2,7 @@
 
 Python is a high level, interpreted programming language that was first released in 1991 by Guido van Rossum. It has become one of the most popular programming languages in the world due to its simplicity, readability, and versatility. Here are some key characteristics of Python:
 
-Easy to learn: Python has a simple and easy-to-read syntax, making it an ideal language for beginners to learn programming.
+Easy to learn Python has a simple and easy-to-read syntax, making it an ideal language for beginners to learn programming.
 
 Interpreted: Python code is executed line by line, rather than compiled beforehand. This makes it easy to debug and test code, as changes can be made quickly and easily.
 
