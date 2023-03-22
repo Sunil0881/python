@@ -8,7 +8,7 @@ Interpreted: Python code is executed line by line, rather than compiled beforeha
 
 Object-oriented: Python is an object-oriented language, meaning that it is based on the concept of objects, which can be manipulated through methods and attributes.
 
-Dynamic: Python is a dynamically-typed language, which means that variables are not assigned a specific data type and can be changed at runtime.
+Dynamic : Python is a dynamically-typed language, which means that variables are not assigned a specific data type and can be changed at runtime.
 
 Versatile: Python is used in a wide range of applications, including web development, scientific computing, data analysis, artificial intelligence, and automation.
 
