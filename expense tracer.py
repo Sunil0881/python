@@ -20,7 +20,7 @@ def calculate_total(category):
 print("Welcome to the expense tracker!")
 while True:
     print("What would you like to do?")
-    print("1. Add an expense")
+    print("1. Add expense")
     print("2. Calculate total expenses")
     print("3. Exit")
     choice = input("> ")
