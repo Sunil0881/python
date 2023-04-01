@@ -29,7 +29,7 @@ print('Summary statistics:', data.describe())
 plt.hist(data['column_name'])
 plt.xlabel('Column Name')
 plt.ylabel('Frequency')
-plt.title('Histogram of Column Name')
+plt.title('Histogram Column Name')
 plt.show()
 
 # Plot a scatter plot between two columns
@@ -42,7 +42,7 @@ plt.show()
 # Plot a boxplot of a column
 sns.boxplot(x='column_name', data=data)
 plt.xlabel('Column Name')
-plt.title('Boxplot of Column Name')
+plt.title('Boxplot Column Name')
 plt.show()
 
 # Compute correlation matrix between columns
