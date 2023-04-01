@@ -1,10 +1,10 @@
-# Import necessary libraries
+# Import necessary libraries.
 import tensorflow as tf
 import cv2
 import numpy as np
 import os
 
-# Define model architecture
+# Define model architecture.
 model = tf.keras.Sequential([
     tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(100,100,3)),
     tf.keras.layers.MaxPooling2D(2,2),
@@ -15,10 +15,10 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
-# Compile model
+# Compile model.
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 
-# Load dataset
+# Load dataset.
 dataset_path = 'path/to/dataset'
 X_train = []
 y_train = []
@@ -29,8 +29,8 @@ for file in os.listdir(dataset_path):
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
-# Train model
+# Train model.
 model.fit(X_train, y_train, epochs=10, batch_size=32)
 
-# Save model
+# Save model.
 model.save('moving_object_detection_model.h5')
