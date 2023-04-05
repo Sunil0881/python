@@ -32,5 +32,5 @@ y_train = np.array(y_train)
 # Train model
 model.fit(X_train, y_train, epochs=10, batch_size=32)
 
-# Save model.
+# Save model
 model.save('moving_object_detection_model.h5')
