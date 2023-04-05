@@ -29,7 +29,7 @@ for file in os.listdir(dataset_path):
 X_train = np.array(X_train)
 y_train = np.array(y_train)
 
-# Train model.
+# Train model
 model.fit(X_train, y_train, epochs=10, batch_size=32)
 
 # Save model.
