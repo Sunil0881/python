@@ -19,7 +19,7 @@ for img in soup.find_all("img"):
 # Find the page title
 title = soup.title.string
 
-# Print the result
+# Print the results
 print("Links:")
 for link in links:
     print(link)
