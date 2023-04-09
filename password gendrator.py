@@ -2,7 +2,7 @@ import random
 import string
 
 # Define the length of the password
-length = 10
+length = 15
 
 # Define the characters to use in the password
 characters = string.ascii_letters + string.digits + string.punctuation
