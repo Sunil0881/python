@@ -2,8 +2,8 @@ import qrcode
 
 # Create QR code instance
 qr = qrcode.QRCode(
-    version=1,  # QR code version
-    box_size=10,  # Size of each box in the QR code
+    version=1,  # QR code version.
+    box_size=10,  # Size of each box in the QR code.
     border=5  # Number of boxes to use for the border
 )
 
