@@ -14,4 +14,4 @@ Versatile: Python is used in a wide range of applications, including web develop
 
 Open source: Python is free and open source, which means that its source code is available to anyone and can be modified and distributed freely.
 
-Overall, Python is a powerful language that can be used for a wide range of programming tasks, from simple scripts to complex applications. Its ease of use, versatility, and extensive library of modules and tools make it a popular choice for developers and businesses alike.
+overall, Python is a powerful language that can be used for a wide range of programming tasks, from simple scripts to complex applications. Its ease of use, versatility, and extensive library of modules and tools make it a popular choice for developers and businesses alike.
