@@ -1,4 +1,4 @@
-n = int(input("Enter the number of courses: "))
+n = int(input("Enter the number of course: "))
 grades = []
 credit_hours = []
 total_credit_hours = 0
