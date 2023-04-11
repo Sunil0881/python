@@ -25,26 +25,26 @@ print('Duplicated rows:', data.duplicated().sum())
 # Get summary statistics of numerical columns
 print('Summary statistics:', data.describe())
 
-# Plot a histogram of a column
+# Plot a histogram of a column.
 plt.hist(data['column_name'])
 plt.xlabel('Column Name')
 plt.ylabel('Frequency')
 plt.title('Histogram Column Name')
 plt.show()
 
-# Plot a scatter plot between two columns
+# Plot a scatter plot between two columns.
 sns.scatterplot(x='column1', y='column2', data=data)
 plt.xlabel('Column 1')
 plt.ylabel('Column 2')
 plt.title('Scatter plot between Column 1 and Column 2')
 plt.show()
 
-# Plot a boxplot of a column
+# Plot a boxplot of a column.
 sns.boxplot(x='column_name', data=data)
 plt.xlabel('Column Name')
 plt.title('Boxplot Column Name')
 plt.show()
 
-# Compute correlation matrix between columns
+# Compute correlation matrix between columns.
 corr_matrix = data.corr()
 print('Correlation matrix:', corr_matrix)
