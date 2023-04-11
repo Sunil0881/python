@@ -25,7 +25,7 @@ print('Duplicated rows:', data.duplicated().sum())
 # Get summary statistics of numerical columns
 print('Summary statistics:', data.describe())
 
-# Plot a histogram of a column.
+# Plot a histogram of a column
 plt.hist(data['column_name'])
 plt.xlabel('Column Name')
 plt.ylabel('Frequency')
